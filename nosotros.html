@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
+  <!-- Bootstrap core CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <!-- Material Design Bootstrap -->
+  <link href="css/mdb.min.css" rel="stylesheet">
+  <!-- Your custom styles (optional) -->
+  <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript" src="js/popper.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="js/mdb.js"></script>
+  <script src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css">
+  <link href="estilos.css" rel="stylesheet">
+
+  <title>Bodega Valero Torres</title>
+  <link rel="icon" type="image/png" href="icon/favicon.png" sizes="16x16">
+</head>
+
+<body onload="loadDoc()">
+
+  <header>
+    <nav class="redesSociales">
+      <a href="http://www.facebook.com" target="_blank"><img src="icon/red1.png" id="redes" /></a>
+      <a href="http://www.twitter.com" target="_blank"><img src="icon/red2.png" id="redes" /></a>
+      <a href="http://www.instagram.com" target="_blank"><img src="icon/red3.png" id="redes" /></a>
+      <a href="http://www.linkedin.com" target="_blank"><img src="icon/red4.png" id="redes" /></a>
+      <a href="http://www.google.com" target="_blank"><img src="icon/red5.png" id="redes" /></a>
+    </nav>
+    <img src="icon/logo.png" id="logo" />
+    <nav class="navbar navbar-expand-lg navbar-light white right">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
+        aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active"><a class="nav-link" href="home.html">Inicio</a></li>
+          <li class="nav-item"><a class="nav-link" href="productos.html">Nuestros vinos</a></li>
+          <li class="nav-item"><a class="nav-link" href="nosotros.html">Sobre Nosotros</a></li>
+          <li class="nav-item"><a class="nav-link" href="galeria.html">La Bodega</a></li>
+          <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
+        </ul>
+
+        <form class="form-inline">
+          <input type="search" class="form-control mr-2 col-sd-6" placeholder="Buscar">
+          <button type="submit" class="btn btn-outline-success my-2 col-sd-6">Enviar</button>
+        </form>
+      </div>
+    </nav>
+  </header>
+
+  <section class="seccionMargenes my-5 col-lg-8 col-md-10 col-xs-10">
+
+    <!-- Section heading -->
+    <h2 class="h1-responsive font-weight-bold text-center my-5 mb-5 mx-auto">NUESTRO EQUIPO</h2>
+    <!-- Section description -->
+    <p class="dark-grey-text w-responsive text-center mx-auto mb-5">Padre e hijo sit amet, consectetur adipisicing
+      elit.
+      Fugit, error amet numquam iure provident voluptate esse quasi, veritatis totam voluptas nostrum quisquam
+      eum porro a pariatur veniam.</p>
+
+    <!--Grid row-->
+    <div class="row text-center">
+
+      <!--Grid column-->
+      <div class="col-md-6 mb-md-0 mb-5">
+
+        <div class="testimonial">
+          <!--Avatar-->
+          <div class="avatar mx-auto">
+            <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(1).jpg" class="rounded-circle z-depth-1 img-fluid">
+          </div>
+          <!--Content-->
+          <h4 class="font-weight-bold dark-grey-text mt-4">Anna Deynah</h4>
+          <h6 class="font-weight-bold blue-text my-3">Web Designer</h6>
+          <p class="font-weight-normal dark-grey-text">
+            <i class="fas fa-quote-left pr-2"></i>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod
+            eos id officiis hic tenetur quae quaerat ad velit ab hic tenetur.</p>
+        </div>
+
+      </div>
+      <!--Grid column-->
+
+      <!--Grid column-->
+      <div class="col-md-6 mb-md-0 mb-5">
+
+        <div class="testimonial">
+          <!--Avatar-->
+          <div class="avatar mx-auto">
+            <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(8).jpg" class="rounded-circle z-depth-1 img-fluid">
+          </div>
+          <!--Content-->
+          <h4 class="font-weight-bold dark-grey-text mt-4">John Doe</h4>
+          <h6 class="font-weight-bold blue-text my-3">Web Developer</h6>
+          <p class="font-weight-normal dark-grey-text">
+            <i class="fas fa-quote-left pr-2"></i>Ut enim ad minima veniam, quis nostrum exercitationem ullam
+            corporis suscipit laboriosam, nisi ut aliquid commodi.</p>
+        </div>
+
+      </div>
+      <!--Grid column-->
+
+    </div>
+    <!--Grid row-->
+
+  </section>
+
+  <!-- Section: Blog v.3 -->
+  <section class="seccionMargenes my-5 col-lg-8 col-md-10 col-xs-10">
+
+    <!-- Section heading -->
+    <h2 class="h1-responsive font-weight-bold text-center my-5">NUESTRA HISTORIA</h2>
+    <!-- Section description -->
+    <p class="dark-grey-text w-responsive text-center mx-auto mb-5">Conócenos, descubre nuestra familia, nuestras
+      tierras y nuestros principios y costumbres a la hora de trabajar en nuestro negocio familiar.</p>
+
+    <!-- Grid row -->
+    <div class="row">
+
+      <!-- Grid column -->
+      <div class="col-lg-5 col-xl-4">
+
+        <!-- Featured image -->
+        <div class="view overlay rounded z-depth-1-half mb-lg-0 mb-4">
+          <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Others/images/49.jpg" alt="Sample image">
+          <a>
+            <div class="mask rgba-white-slight"></div>
+          </a>
+        </div>
+
+      </div>
+      <!-- Grid column -->
+
+      <!-- Grid column -->
+      <div class="col-lg-7 col-xl-8">
+
+        <!-- Post title -->
+        <h3 class="font-weight-bold mb-3"><strong>Title of the news</strong></h3>
+        <!-- Excerpt -->
+        <p class="dark-grey-text">Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit
+          quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus
+          et aut officiis debitis cum soluta nobis est eligendi placeat facere aut rerum.</p>
+        <!-- Post data -->
+        <p>by <a class="font-weight-bold">Jessica Clark</a>, 19/04/2018</p>
+        <!-- Read more button -->
+        <a class="btn btn-primary btn-md">Read more</a>
+
+      </div>
+      <!-- Grid column -->
+
+    </div>
+    <!-- Grid row -->
+
+    <hr class="my-5">
+
+    <!-- Grid row -->
+    <div class="row">
+
+      <!-- Grid column -->
+      <div class="col-lg-5 col-xl-4">
+
+        <!-- Featured image -->
+        <div class="view overlay rounded z-depth-1-half mb-lg-0 mb-4">
+          <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Others/images/31.jpg" alt="Sample image">
+          <a>
+            <div class="mask rgba-white-slight"></div>
+          </a>
+        </div>
+
+      </div>
+      <!-- Grid column -->
+
+      <!-- Grid column -->
+      <div class="col-lg-7 col-xl-8">
+
+        <!-- Post title -->
+        <h3 class="font-weight-bold mb-3"><strong>Title of the news</strong></h3>
+        <!-- Excerpt -->
+        <p class="dark-grey-text">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis
+          praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati
+          cupiditate non provident et accusamus iusto odio dignissimos et dolorum fuga.</p>
+        <!-- Post data -->
+        <p>by <a class="font-weight-bold">Jessica Clark</a>, 16/04/2018</p>
+        <!-- Read more button -->
+        <a class="btn btn-primary btn-md">Read more</a>
+
+      </div>
+      <!-- Grid column -->
+
+    </div>
+    <!-- Grid row -->
+
+    <hr class="my-5">
+
+    <!-- Grid row -->
+    <div class="row">
+
+      <!-- Grid column -->
+      <div class="col-lg-5 col-xl-4">
+
+        <!-- Featured image -->
+        <div class="view overlay rounded z-depth-1-half mb-lg-0 mb-4">
+          <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Others/images/52.jpg" alt="Sample image">
+          <a>
+            <div class="mask rgba-white-slight"></div>
+          </a>
+        </div>
+
+      </div>
+      <!-- Grid column -->
+
+      <!-- Grid column -->
+      <div class="col-lg-7 col-xl-8">
+
+        <!-- Post title -->
+        <h3 class="font-weight-bold mb-3"><strong>Title of the news</strong></h3>
+        <!-- Excerpt -->
+        <p class="dark-grey-text">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed
+          quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est,
+          qui dolorem ipsum quia dolor sit amet, psam voluptatem quia consectetur.</p>
+        <!-- Post data -->
+        <p>by <a class="font-weight-bold">Jessica Clark</a>, 12/04/2018</p>
+        <!-- Read more button -->
+        <a class="btn btn-primary btn-md">Read more</a>
+
+      </div>
+      <!-- Grid column -->
+
+    </div>
+    <!-- Grid row -->
+
+  </section>
+  <!-- Section: Blog v.3 -->
+
+
+  <div class="seccionMargenes col-lg-8 col-md-10 col-xs-10">
+    <div id="ejemplo"></div>
+  </div>
+
+  <div class="separacion"></div>
+
+  <div class="seccionMargenes col-lg-8 col-md-10 col-xs-10">
+    <h3 class="font-weight-bold mb-3"><strong>Aprende mucho más sobre el vino</strong></h3>
+    <p class="dark-grey-text">Haz una inmersión en el mundo del vino, descubre cada detalle, cada rincón de interés en
+      este arte.</p>
+    <video controls>
+      <source src="movie.mp4" type="video/mp4">
+    </video>
+  </div>
+  <div class="separacion"></div>
+
+  <script>
+
+    function loadDoc() {
+      var xmlhttp = new XMLHttpRequest();
+      var url = "datos.json";
+      xmlhttp.onreadystatechange = function () {
+        if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
+          myFunction(xmlhttp.responseText);
+        }
+      }
+      xmlhttp.open("GET", url, true);
+      xmlhttp.send();
+    }
+    function myFunction(response) {
+      var arr = JSON.parse(response);
+
+      var tabla = "<table id='example' class='display' style='width:100%'>";
+      tabla += "<thead>";
+      tabla += "<tr>";
+      tabla += "<th>Nombre del vino</th>";
+      tabla += "<th>Bodega</th>";
+      tabla += "<th>Lugar</th>";
+      tabla += "<th>Precio</th>";
+      tabla += "<th>Descripción</th>";
+      tabla += "</tr>";
+      tabla += "</thead>";
+      tabla += "<tbody>";
+      for (x in arr.rancking.vinos) {
+        tabla += "<tr>";
+        tabla += "<td>" + arr.rancking.vinos[x].nombre + "</td>";
+        tabla += "<td>" + arr.rancking.vinos[x].bodega + "</td>";
+        tabla += "<td>" + arr.rancking.vinos[x].lugar + "</td>";
+        tabla += "<td>" + arr.rancking.vinos[x].precio + "</td>";
+        tabla += "<td>" + arr.rancking.vinos[x].descripcion + "</td>";
+        tabla += "</tr>";
+      }
+      tabla += "</tbody>";
+      tabla += "</table>";
+
+      document.getElementById('ejemplo').innerHTML = tabla;
+      $(document).ready(function () {
+        $('#example').DataTable({
+          "scrollY": "200px"
+        });
+      });
+    }
+
+
+  </script>
+  <!-- Footer -->
+  <footer class="page-footer font-small pt-4">
+
+    <!-- Footer Links -->
+    <div class="container text-center ">
+      <div class="row d-flex align-items-center">
+        <div class="text-left col-sm-12 col-md-4 col-lg-4 col-xl-4 mx-auto mt-3">
+          <h6 class="text-uppercase mb-4 font-weight-bold">Bodega Valero Torres</h6>
+          <p>Una bodega familiar que ofrece productos y servicios de calidad, dirigidos al mundo de la
+            hostelería. Si eres el encargado o dueño de un restaurante y te gustaría conocernos, hacernos
+            alguna consulta o pedirnos un presupuesto, estamos a su disposición.</p>
+        </div>
+        <!-- Grid column -->
+        <div class="text-left col-sm-12 col-md-5 col-lg-5 col-xl-5 mx-auto mt-3 ">
+          <h6 class="text-uppercase mb-4 font-weight-bold">Contacto</h6>
+          <p>
+            <i class="fas fa-home mr-3"></i>Calle Iglesia, 46 bajo, Alfamén, Zaragoza</p>
+          <p>
+            <i class="fas fa-envelope mr-3"></i>bodegavalerotorres@hotmail.com</p>
+          <p>
+            <i class="fas fa-phone mr-3"></i>976 62 61 30</p>
+          <p>
+            <i class="fas fa-phone mr-3"></i>605 19 59 92</p>
+        </div>
+        <!-- Grid column -->
+      </div>
+
+      <hr>
+
+      <!--Google map-->
+      <div class="col-md-12 col-lg-12 col-xl-12 mx-auto mt-3">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2991.085496799396!2d-1.242454684224308!3d41.43736647925969!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd5be2cd9c87d259%3A0x72465a54623bc07d!2sCalle+Iglesia%2C+46%2C+50461+Alfam%C3%A9n%2C+Zaragoza!5e0!3m2!1ses!2ses!4v1550515813203"
+          frameborder="0" style="border:0" allowfullscreen class="mapaFooter"></iframe>
+      </div>
+
+      <hr>
+
+      <!-- Grid row -->
+      <div class="row d-flex align-items-center">
+        <!-- Grid column -->
+        <div class="col-md-6 col-lg-6 ">
+          <!--Copyright-->
+          <p class="text-center text-md-center my-2">© 2019 Copyright:
+            <strong> BodegaValeroTorres.com</strong>
+          </p>
+        </div>
+        <nav class="col-md-6 col-lg-6 text-md-center text-center my-2">
+          <a href="http://www.facebook.com" target="_blank"><img src="icon/red1.png" id="redes" /></a>
+          <a href="http://www.twitter.com" target="_blank"><img src="icon/red2.png" id="redes" /></a>
+          <a href="http://www.instagram.com" target="_blank"><img src="icon/red3.png" id="redes" /></a>
+          <a href="http://www.linkedin.com" target="_blank"><img src="icon/red4.png" id="redes" /></a>
+          <a href="http://www.google.com" target="_blank"><img src="icon/red5.png" id="redes" /></a>
+        </nav>
+        <!-- Grid column -->
+      </div>
+      <!-- Grid row -->
+
+    </div>
+    <!-- Footer Links -->
+
+  </footer>
+  <!-- Footer -->
+</body>
+
+</html>

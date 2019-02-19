@@ -1,0 +1,170 @@
+
+.redesSociales {
+    background-color: #a6bdc4;
+    text-align: center;
+    filter: drop-shadow(0px 1px 3px rgb(192, 192, 192));
+}
+.page-footer{
+    background-color: #131e30;
+    filter: drop-shadow(0px -3px 4px gray);
+}
+
+#redes {
+    margin: 5px 10px 5px 10px;
+    width: 20px;
+}
+
+#redes:hover {
+    filter: drop-shadow(0px 0px 3px #ffffff);
+}
+
+#logo {
+    width: 300px;
+}
+
+#navbar-toggler {
+    float: right;
+}
+video{
+    width: 100%;
+}
+.row{
+    font-size: 0.9em;
+    padding: 0;
+}
+
+.info {
+    margin-top: 30px;
+}
+.carousel{
+    filter: drop-shadow(0px 3px 4px gray);
+}
+*{
+    margin : 0;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.separacion{
+    height: 8em;
+}
+
+.seccionMargenes{
+    margin-left: auto;
+    margin-right: auto;
+    padding:0;
+}
+
+.fondoGris{
+    background-color: ghostwhite;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    filter: drop-shadow(0px -3px 4px rgb(199, 199, 199));
+}
+
+.breadcrumb{
+    margin-bottom: 50px; 
+    margin-top: 50px; 
+}
+
+footer{
+    height: 10%;
+    background-color: #f5f5f5;
+    border-color: #e7e7e7;
+    clear: both;
+}
+
+.tituloPeque{
+    font-weight:  bold;
+    letter-spacing:  0.15em;
+    font-size: 0.8em;
+    color:gray;
+}
+
+.tituloNormal{
+    font-size: 0.7em;
+}
+.iconosHome{
+    filter: drop-shadow(3px 3px 3px gainsboro);
+}
+
+/* Formulario */
+
+
+#contenidoPrincipal{
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 10%;
+}
+
+
+.fotoForm{
+    width: 50%;
+    float: left;
+    min-width: 270px;
+    padding: 20px;
+    padding-bottom: 10px;
+    padding-left: 0;
+
+}
+.mapaFooter{
+    width: 100%;
+}
+
+.parraf{
+    text-align: justify;
+    padding-top:30px;
+}
+
+#contenidoSecundario{
+    margin-bottom: 10%;
+    margin-top: 10%;
+}
+
+.fieldset{
+    width: 100%;
+}
+
+.contact1-pic {
+   text-align:center ;
+
+    padding-bottom: 100px;
+}
+
+.obligatorio{
+    color:red;
+    margin-left:5px;
+}
+
+.enviarForm{
+    text-align:center ;
+    margin-top: 25px;
+  
+}
+.botonForm{
+    width: 150px;
+}
+
+.comment{
+    float: right;
+    margin-top: 10px;
+}
+
+/*Galeria*/
+.fotoGaleria{
+    width: 100%;
+    float: left;
+    padding-bottom: 20px;
+}
+
+#contenidoGaleria{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.fototxt{
+    text-align: center;
+    font-size: 18px;
+    padding-bottom: 75px;
+    padding-bottom: 10%;
+}

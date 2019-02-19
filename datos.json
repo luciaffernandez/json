@@ -1,0 +1,48 @@
+{
+    "rancking": {
+        "vinos": [
+            {
+                "nombre": "Petit Verdot 2015",
+                "bodega": "Abadía Retuerta",
+                "lugar": "CASTILLA Y LEÓN",
+                "precio": "120.00",
+                "descripcion": "La Petit Verdot, la más exótica de las vides bordelesas, es la base de este original vino. Normalmente utilizada en pequeñas proporciones para aportar nervio a otras variedades, Abadía Retuerta ha aprovechado todo el potencial de esta uva para crear un vino monovarietal único y muy original. El potente sol de Castilla, un particular terroir con suelo predominantemente arenoso y 24 meses de reposo en barrica le conceden un carácter exquisito."
+            },
+			{
+                "nombre": "Amontillado Napoleón",
+                "bodega": "Bodegas Hidalgo-La Gitana",
+                "lugar": "JÉREZ",
+                "precio": "60.00",
+                "descripcion": "Vino Generoso de D.O. Jerez-Xérés-Sherry, cuyo complejo envejecimiento da como resultado uno de los mejores vinos del Marco. Su proceso de crianza incluye una fase inicial bajo velo de flor, seguida de una fase de crianza oxidativa. Amontillado Napoleón se elabora a partir de mosto de uva de la variedad Palomino fino, cuidadosamente cultivada en suelos blancos de albariza, muy preciados para obtener mostos muy finos de gran calidad."
+            },
+            {
+                "nombre": "Artadi El Carretil 2016",
+                "bodega": "Bodegas y Viñedos Artadi",
+                "lugar": "LA RIOJA",
+                "precio": "270.00",
+                "descripcion": "Viña El Pisón produce un vino reflejo del saber hacer de nuestros antepasados y de la pasión de quienes queremos mantener vivo el espíritu de un viñedo. Un vino de sutiles caracteres minerales, finas frutas, complejas y delicadas secuencias especiadas y taninos con volúmenes envolventes y acariciantes. Un vino de sorprendente energía y complejidad. Elegancia natural con profundas y cambiantes sensaciones."
+            },
+            {
+                "nombre": "Benjamín Romeo Colección Nº1",
+                "bodega": "Bodega Contador",
+                "lugar": "LA RIOJA",
+                "precio": "182.00",
+                "descripcion": "Después de una viticultura que se ha basado en el respeto a la tierra y en la tradición con una producción mínima, nace la Colección Nº1. El vino de la Colección Nº1 tiene el carácter del Tempranillo puro. Con la aportación del suelo de gravas y una crianza a medida se consigue un vino con gran potencial tánico, y a la vez, para mí, con su mayor virtud: Volumen."
+            },
+            {
+                "nombre": "Cirsion 2016",
+                "bodega": "Bodegas Roda",
+                "lugar": "LA RIOJA",
+                "precio": "170.00",
+                "descripcion": "En 1995 descubrimos que algunas cepas producían uvas cuyo sabor era muy diferente al de las plantas de alrededor. Nos producían una sensación de plenitud, de volumen, con registros más próximos a un vino que a una uva. Dos años después, elaboramos nuestro primer Cirsion, que no salió al mercado y comprobamos que con una corta crianza, alcanzó un nivel de sedosidad increíble y una complejidad frutal fuera de lo común. Cada vendimia recorremos los viñedos buscando esta curiosa rareza natural y así, una entre mil, se recogen las uvas de Cirsion."
+            },
+            {
+                "nombre": "Viña hervato",
+                "bodega": "Bodegas Valero Torres",
+                "lugar": "CARIÑENA",
+                "precio": "30.00",
+                "descripcion": "Empresa dedicada a la venta de vinos jóvenes y de crianza. En Bodegas Valero Torres, José Antonio cuentan con los mejores vinos de Viña Hervato. Ubicados en la localidad zaragozana de Alfamen cuentan con profesionales dedicados y responsables. Además, distribuyen sus productos a toda España con la máxima garantía de calidad."
+            }
+        ]
+    }
+}
